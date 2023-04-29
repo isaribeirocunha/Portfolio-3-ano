@@ -1,1 +1,53 @@
+1 atividade:
 
+Criar duas tabelas, uma de livros e uma de clientes. Inicialmente com atributos multivalorados e compostos e depois passar para a primeira forma normal.
+
+https://docs.google.com/spreadsheets/d/1NftCA6d8HH4IWGVJ83JVxQ3Fe0QLkYo42pdGXsfw5ik/edit?usp=sharing
+
+2 atividade:
+
+Desenvolva o diagrama E-R necessário para a criação de um sistema de currículos online. Após isso desenvolva o arquivo em SQL que faça a criação do bando de dados projetado. Insira informações em todas as tabelas.
+
+Utilizar:
+Alter table
+date
+serial
+decimal
+
+CREATE TABLE pessoa(
+nome VARCHAR (100) NOT NULL,
+data_de_nascimento DATE not NULL, 
+cpf_PK VARCHAR (15) NOT NULL, 
+email VARCHAR (30) NOT NULL, 
+telefone int not NULL,
+endereço VARCHAR (300) NOT NULL,   
+experiencia_profissional VARCHAR (50) NOT NULL, 
+cargo_pretendido VARCHAR (30) NOT NULL,
+pretenção_salarial DECIMAL(7,2) NOT NULL,
+num_curriculo_FK int NOT NULL, 
+PRIMARY KEY (cpf_pk)
+);
+
+CREATE TABLE empresa(
+nome VARCHAR (100) NOT NULL,
+cnpj_PK VARCHAR (15) NOT NULL,
+vagas VARCHAR (30) NOT NULL, 
+endereço VARCHAR (50) NOT NULL, 
+telefone int NOT NULL,
+razao_social VARCHAR (60) NOT NULL, 
+num_curriculo_empresa_FK int NOT NULL, 
+PRIMARY KEY (cnpj_PK), 
+FOREIGN KEY (num_curriculo_empresa_FK)
+REFERENCES curriculo (identificador_PK)
+);
+
+CREATE TABLE curriculo(
+cnpj_FK int NOT NULL,
+cpf_FK VARCHAR (15) NOT NULL,
+identificador_PK int NOT NULL,
+PRIMARY KEY (identificador_PK),
+FOREIGN KEY (cpf_FK)
+REFERENCES pessoa (cpf_PK)
+);
+
+Autoria:
