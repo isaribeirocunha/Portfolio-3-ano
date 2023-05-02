@@ -51,3 +51,27 @@ REFERENCES pessoa (cpf_PK)
 );
 
 Autoria:
+
+Create Table Filha(
+	nome Varchar(16) not null,
+	idade int,
+	identificador Varchar(5) not null,
+	email Varchar(30) not null,
+	sexo Varchar(100) not null,
+	Primary Key(identificador)
+)
+Create Table pai(
+	nome Varchar(30) not null,
+	idade int not null,
+	cpf Varchar(14) not null,
+	email Varchar(5) not null,
+	Primary Key(cpf),
+	Foreign Key(pet)
+	References Pet(identificador)
+)
+insert into Filha(nome,idade,identificador,email,sexo)
+Values('Isadora',17,'12345','sadorarcunha','feminino')
+insert into Pai(nome,idade,cpf,email)
+Values('Juliano',43,'123.456.789-01','julianofcuha')
+select * from Filha
+select * from Pai
