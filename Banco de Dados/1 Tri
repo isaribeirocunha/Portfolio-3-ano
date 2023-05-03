@@ -75,3 +75,7 @@ insert into Pai(nome,idade,cpf,email)
 Values('Juliano',43,'123.456.789-01','julianofcuha')
 select * from Filha
 select * from Pai
+
+Autoria 2:
+
+https://padlet.com/isadora_r_cunha/banco-de-dados-dozh8nywyfugvif8
