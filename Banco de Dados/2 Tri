@@ -1,0 +1,12 @@
+Atividade 1: Você tem duas tabelas em um banco de dados: "clientes" e "pedidos". 
+A tabela "clientes" possui as colunas "id", "nome" e "email", 
+enquanto a tabela "pedidos" possui as colunas "id", "cliente_id" e "valor". 
+Crie uma consulta que retorne o nome do cliente e o valor total de todos os pedidos que cada cliente fez. 
+Ordene os resultados pelo valor total em ordem decrescente.
+
+https://drive.google.com/file/d/12JT-l_odtKqfz48I5SOgW3YzV4bs0KBS/view
+
+Atividade 2: Para as tabelas criadas e já normalizadas feitas nos dias 10/04, 24/04 e 08/05 (hoje), 
+criar o código SQL equivalente e preencher com pelo menos um registro em cada tabela.
+
+https://docs.google.com/document/d/123ObLcmEIIln8CUYP5FHsTxf6OEyBgmNQ7EP5KDN7pQ/edit
