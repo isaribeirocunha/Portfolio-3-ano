@@ -1,0 +1,84 @@
+Atividade 1
+Faça um código que liste os carros de uma concessionária que possui 10 carros, 
+sobre cada carro é importante colocar modelo, marca, cor e ano. 
+Após isso, crie uma função que mostre todos os modelos de carro que tem no ano escolhido
+(o ano deve ser parâmetro de entrada na função).
+
+const carros = [
+    {
+        modelo: "Mustang GT",
+        marca: "Ford",
+        cor: "Preto",
+        ano: 2022
+    },
+    {
+        modelo: "Model S",
+        marca: "Tesla",
+        cor: "Branco",
+        ano: 2023
+    },
+    {
+        modelo: "3 Series",
+        marca: "BMW",
+        cor: "Prata",
+        ano: 2021
+    },
+    {
+        modelo: "Q5",
+        marca: "Audi",
+        cor: "Azul",
+        ano: 2020
+    },
+    {
+        modelo: "Camry",
+        marca: "Toyota",
+        cor: "Vermelho",
+        ano: 2022
+    },
+    {
+        modelo: "C-Class",
+        marca: "Mercedes-Benz",
+        cor: "Cinza",
+        ano: 2021
+    },
+    {
+        modelo: "Civic",
+        marca: "Honda",
+        cor: "Branco",
+        ano: 2023
+    },
+    {
+        modelo: "Corvette Stingray",
+        marca: "Chevrolet",
+        cor: "Amarelo",
+        ano: 2022
+    },
+    {
+        modelo: "Golf GTI",
+        marca: "Volkswagen",
+        cor: "Preto",
+        ano: 2021
+    },
+    {
+        modelo: "911 Carrera",
+        marca: "Porsche",
+        cor: "Vermelho",
+        ano: 2022
+    },
+]
+
+
+ function buscarAno(ano1){
+    for(let i = 0; i<10; i++){
+        if (carros[i].ano == ano1){
+            console.log(carros[i].modelo)
+        }
+    }
+}
+
+
+buscarAno(2022)
+
+
+Atividade 2:
+
