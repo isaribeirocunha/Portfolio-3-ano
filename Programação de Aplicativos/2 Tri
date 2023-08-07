@@ -1,0 +1,44 @@
+Atividade 1:
+
+Crie uma página com HTML e CSS.
+Essa página é uma página de apresentação do tema a sua escolha, onde deverá
+constar texto, imagem com formatação no css para que a imagem apareça como
+círculo, formatação de classes para os textos e utilizar as boas práticas reutilizando
+alguma classe sempre que necessário.
+
+https://drive.google.com/file/d/10vHp5gflCxuhF3IkN5pOSRNJbZylpAlt/view?usp=sharing
+https://github.com/isaribeirocunha/atvdanilo
+
+Atividade 2:
+
+Atividade de Lógica com JavaScript
+
+1. Crie uma função que recebe 2 números como argumento e retorne se o primeiro é
+maior ou igual ao segundo.
+2. Crie uma função que receba a idade da pessoa e retorne a quantidade de dias, crie
+uma validação para não permitir número negativo, e quando tiver retorna uma
+mensagem de erro.
+3. Crie uma função que receba número de 1 a 12 e retorne o mês correspondente,
+exemplo se colocar o número 2, o retorno deve ser “Fevereiro”.
+4. Escreva uma função que recebe um valor booleano ou numérico. Se o parâmetro
+fornecido for booleano, o retorno deve ser o inverso.Por exemplo, se a entrada for
+false, retorna true. Se o parâmetro for numérico, o retorno deve ser o número
+inverso. Exemplo: se fornecer 1, o retorno deve ser -1. Se o parâmetro de entrada
+não for de nenhum dos tipos, retorna “Booelano ou Número esperados, mas o
+parâmetro é do tipo (tipo do parâmetro).
+5. Escreva uma função que recebe dois números inteiros não negativos e realize a
+multiplicação deles. Porém não pode utilizar o operador de multiplicação.
+6. Escreva uma função que recebe 2 parâmetros. O primeiro parâmetro é o elemento
+que repetirá, enquanto o segundo será o número de vezes que haverá repetição.
+Um array serpa retornado.
+Exemplo:
+repetir(“teste”, 2 ) // retorna [“teste”, “teste”]
+repetir( 4, 3 ) // retorna[4 ,4, 4]
+7. Crie uma função que recebe um array de elementos e retorne um array somente
+com os números presentes no array recebido como parâmetro.
+Exemplo:
+filtro([“Js”, 2, “hoje”, 4, 5, 7, “teste”] // retorno [2,4,5,7]
+filtro([“teste”,”tentativa”] // retorno []
+
+https://docs.google.com/document/d/1zRKU5j3gjv2KFkaGKuJ9tblwmDqx0VFVmtkh6XnCE8I/edit?usp=sharing
+
